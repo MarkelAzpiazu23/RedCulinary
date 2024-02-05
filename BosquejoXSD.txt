@@ -1,0 +1,20 @@
+cliente_id
+-integer
+Nombre
+-obligatorio 
+-string
+Apellidos
+-obligatorio
+-string
+Fecha_nacimiento
+-date
+Telefono
+-integer
+-maximo 2
+-minimo1
+Correo_electronico
+-opcional
+-string
+Domicilio
+-string
+-opcional

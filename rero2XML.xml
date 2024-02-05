@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="reto2.xsd">
+    
+    
+    <cliente>
+        <cliente_id>2</cliente_id>
+        <Nombre>John</Nombre>
+        <Apellidos>Doe</Apellidos>
+        <Fecha_nacimiento>1990-05-15</Fecha_nacimiento>
+        <Telefono>1234567890</Telefono>
+        <Telefono>0987654321</Telefono> 
+        <Correo_electronico>john.doe@example.com</Correo_electronico>
+        <Domicilio>123 Main St, City, Country</Domicilio>
+    </cliente>
+    
+    <cliente>
+        <cliente_id>1</cliente_id>
+        <Nombre>John</Nombre>
+        <Apellidos>Doe</Apellidos>
+        <Fecha_nacimiento>1990-05-15</Fecha_nacimiento>
+        <Telefono>1234567890</Telefono>
+        <Telefono>0987654321</Telefono> 
+        <Correo_electronico>john.doe@example.com</Correo_electronico>
+        <Domicilio>123 Main St, City, Country</Domicilio>
+    </cliente>
+</Clientes>
