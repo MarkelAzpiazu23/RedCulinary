@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<red_culinary_sushi>
+    <clientes>
+        <cliente>
+            <cliente_id>1</cliente_id>
+            <nombre>Juan</nombre>
+            <apellidos>González</apellidos>
+            <fecha_nacimiento>1990-05-15</fecha_nacimiento>
+            <correo_electronico>juan.gonzalez@example.com</correo_electronico>
+            <telefono>123456789</telefono>
+            <domicilio>Calle Principal, 123</domicilio>
+        </cliente>
+        <cliente>
+            <cliente_id>2</cliente_id>
+            <nombre>Maria</nombre>
+            <apellidos>Rodriguez</apellidos>
+            <fecha_nacimiento>1985-08-20</fecha_nacimiento>
+            <correo_electronico>maria.rodriguez@example.com</correo_electronico>
+            <telefono>987654321</telefono>
+            <domicilio>Avenida Central, 456</domicilio>
+        </cliente>
+    </clientes>
+    <empleados>
+        <empleado>
+            <empleado_id>1</empleado_id>
+            <nombre>Carlos</nombre>
+            <puesto>Camarero</puesto>
+            <telefono>987654321</telefono>
+        </empleado>
+        <empleado>
+            <empleado_id>2</empleado_id>
+            <nombre>Laura</nombre>
+            <puesto>Chef</puesto>
+            <telefono>123456789</telefono>
+        </empleado>
+    </empleados>
+    <mesas>
+        <mesa>
+            <mesas_id>1</mesas_id>
+            <numero_mesa>1</numero_mesa>
+            <capacidad>4</capacidad>
+        </mesa>
+        <mesa>
+            <mesas_id>2</mesas_id>
+            <numero_mesa>2</numero_mesa>
+            <capacidad>6</capacidad>
+        </mesa>
+    </mesas>
+    <reservas>
+        <reserva>
+            <reserva_id>1</reserva_id>
+            <fecha>2024-02-09</fecha>
+            <hora>20:00:00</hora>
+            <empleado_id>1</empleado_id>
+            <mesas_id>1</mesas_id>
+            <cliente_id>1</cliente_id>
+        </reserva>
+        <reserva>
+            <reserva_id>2</reserva_id>
+            <fecha>2024-02-10</fecha>
+            <hora>18:30:00</hora>
+            <empleado_id>2</empleado_id>
+            <mesas_id>2</mesas_id>
+            <cliente_id>2</cliente_id>
+        </reserva>
+    </reservas>
+</red_culinary_sushi>

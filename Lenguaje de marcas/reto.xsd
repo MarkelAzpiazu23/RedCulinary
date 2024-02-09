@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="red_culinary_sushi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="clientes" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cliente" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cliente_id" type="xs:int"/>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="apellidos" type="xs:string"/>
+                    <xs:element name="fecha_nacimiento" type="xs:date"/>
+                    <xs:element name="correo_electronico" type="xs:string"/>
+                    <xs:element name="telefono" type="xs:int"/>
+                    <xs:element name="domicilio" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="empleados" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empleado" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empleado_id" type="xs:int"/>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="puesto" type="xs:string"/>
+                    <xs:element name="telefono" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mesas" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mesa" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="mesas_id" type="xs:int"/>
+                    <xs:element name="numero_mesa" type="xs:int"/>
+                    <xs:element name="capacidad" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="reservas" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reserva" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="reserva_id" type="xs:int"/>
+                    <xs:element name="fecha" type="xs:date"/>
+                    <xs:element name="hora" type="xs:time"/>
+                    <xs:element name="empleado_id" type="xs:int"/>
+                    <xs:element name="mesas_id" type="xs:int"/>
+                    <xs:element name="cliente_id" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
